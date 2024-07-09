@@ -17,7 +17,7 @@ export default {
     maxAlbumPlaylistLength: 200,
     maxCaptionsLength: 3,
     logFile: 'logs.txt', /* false to disable -- will overwrite existing file -- use crypto.randomBytes(x).toString() to always create new files */
-    nativePlayback: true
+    nativePlayback: false
   },
   debug: {
     youtube: {
