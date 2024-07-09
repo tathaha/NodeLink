@@ -7,7 +7,7 @@ export default {
   },
   server: {
     port: 2333,
-    password: 'youshallnotpass'
+    password: 'rinkadev'
   },
   options: {
     requestsTimeout: 5000, /* 5 seconds */
@@ -114,12 +114,12 @@ export default {
         bypassAgeRestriction: false // Bypasses age-restricted videos. Uses unsafe methods (eval) to allow this to work. Enable at your own risk.
       },
       bandcamp: true,
-      http: false, // Enabling can allow IP leaks. Enable at your own risk.
+      http: true, // Enabling can allow IP leaks. Enable at your own risk.
       local: false, // Enabling can allow access to local files. Enable at your own risk.
       pandora: false,
       spotify: {
         enabled: true,
-        market: 'BR',
+        market: 'VN',
         sp_dc: 'DISABLED' // Necessary for direct Spotify loadLyrics. Available in Spotify website cookies in sp_dc parameter.
       },
       deezer: {
